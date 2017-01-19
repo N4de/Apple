@@ -1,0 +1,27 @@
+.main-image {
+	background-repeat: no-repeat;
+	height: 1000px;
+}
+
+.little-image {
+	min-width: 300px;
+	width: 300px;
+	background-color: blue;
+	height: 100px;
+}
+
+
+nav li {
+	display: inline-block;
+	padding: 10px;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav {
+	margin: auto;
+	width: 1000px;
+	text-align: center;
+}
