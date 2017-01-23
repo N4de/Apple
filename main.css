@@ -1,27 +1,65 @@
+body {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+    min-width: 800px;
+}
+
 .main-image {
 	background-repeat: no-repeat;
-	height: 1000px;
+	height: 625px;
+	background: url(http://web.archive.org/web/20140301004302/http:/images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
+	padding: 20px;
+	color: white;
 }
 
 .little-image {
-	min-width: 300px;
-	width: 300px;
-	background-color: blue;
-	height: 100px;
+	display: inline-block;
+	min-width: 195px;
+	height: 150px;
+	background-color: yellow;
+}	
+
+.image-text h1, h2, h3{
+	text-align: center;
+	width: 615px;
+	margin: auto;
+
 }
 
-
-nav li {
+li {
 	display: inline-block;
-	padding: 10px;
+}
+
+ul {
+	list-style-type: none;
 }
 
 nav ul {
-	list-style-type: none;
+	width: 845px;
+	text-align: center;
+	display: table;
+}
+
+nav li {
+	padding: 10px;
+	display: table-cell;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
 }
 
 nav {
 	margin: auto;
-	width: 1000px;
 	text-align: center;
+	background-color: grey;
+}
+
+.little-images {
+	text-align: center;
+	width: 100%
+}
+
+.footer-nav {
+	float: right;
 }
