@@ -13,16 +13,36 @@ body {
 
 .little-image {
 	display: inline-block;
-	min-width: 195px;
-	height: 150px;
-	background-color: yellow;
+	position: relative;
+	width: 25%;
 }	
+
+.image-text {
+	padding-top: 135px;
+}
 
 .image-text h1, h2, h3{
 	text-align: center;
 	width: 615px;
-	margin: auto;
+	margin: 0 auto;
+}
 
+.your-verse {
+	height: 32px;
+	overflow: hidden;
+}
+
+.verse-share {
+	margin-top: -13px;
+}
+
+.copyright {
+	display: inline-block;
+	width: 460px;
+}
+
+.footer-nav {
+	display: inline-block;
 }
 
 li {
@@ -37,6 +57,8 @@ nav ul {
 	width: 845px;
 	text-align: center;
 	display: table;
+	background-color: grey;
+	margin: 0 auto;
 }
 
 nav li {
@@ -52,7 +74,30 @@ nav a {
 nav {
 	margin: auto;
 	text-align: center;
-	background-color: grey;
+}
+
+h1 {
+	font-size: 52px;
+	line-height: 36px;
+}
+
+h2 {
+	font-size: 21px;
+	line-height: 18px;
+}
+
+h3 {
+	font-size: 15px;
+}
+
+footer {
+	font-size: 10px;
+	padding: 22px 50px;
+}
+
+footer a {
+	text-decoration: none;
+	color: #08c;
 }
 
 .little-images {
